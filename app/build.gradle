@@ -1,0 +1,75 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+}
+
+android {
+    namespace 'com.kerollosragaie.teamtrix'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.kerollosragaie.teamtrix"
+        minSdk 29
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures {
+        viewBinding = true
+    }
+    kapt {
+        correctErrorTypes true
+    }
+}
+
+dependencies {
+    //Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    //For JSON
+    implementation 'com.google.code.gson:gson:2.10.1'
+    //for coroutines
+    implementation "androidx.activity:activity-ktx:1.6.1"
+    //Glide for images
+    implementation 'com.github.bumptech.glide:glide:4.13.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.13.0'
+    //to make image circular
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    // Adding an google material design dependency for using material components
+    implementation 'com.google.android.material:material:1.8.0'
+    //DEXTER for permission handling
+    implementation 'com.karumi:dexter:6.2.3'
+    //To access location of the user
+    implementation "com.google.android.gms:play-services-location:21.0.1"
+    implementation 'com.github.niqo01.rxplayservices:rx-play-services-location:0.4.0'
+    //Loading indicator:
+    implementation 'com.github.ibrahimsn98:CirclesLoadingView:1.0'
+    //Awesome Dialog:
+    implementation 'com.github.blennerSilva:AwesomeDialog:2.0.5'
+
+
+    implementation 'androidx.core:core-ktx:1.9.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+}
