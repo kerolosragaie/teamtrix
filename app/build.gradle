@@ -59,10 +59,10 @@ dependencies {
     //To access location of the user
     implementation "com.google.android.gms:play-services-location:21.0.1"
     implementation 'com.github.niqo01.rxplayservices:rx-play-services-location:0.4.0'
-    //Loading indicator:
-    implementation 'com.github.ibrahimsn98:CirclesLoadingView:1.0'
-    //Awesome Dialog:
-    implementation 'com.github.blennerSilva:AwesomeDialog:2.0.5'
+    //PugNotification:
+    implementation 'com.github.halysongoncalves:pugnotification:1.8.1'
+    //IonAlert Dialog:
+    implementation 'com.github.oktavianto:ionalert:1.0.4'
 
 
     implementation 'androidx.core:core-ktx:1.9.0'
