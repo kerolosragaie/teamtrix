@@ -1,5 +1,6 @@
 package com.kerollosragaie.teamtrix.activities
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.kerollosragaie.teamtrix.databinding.ActivityIntroBinding
@@ -13,5 +14,18 @@ class IntroActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         Utils.makeActivityFullScreen(this@IntroActivity)
+
+        //Setup buttons
+        setupButtons()
     }
+
+    private fun setupButtons(){
+        binding.btnSignUp.setOnClickListener {
+            startActivity(Intent(this,SignUpActivity::class.java))
+        }
+        binding.btnSignIn.setOnClickListener {
+            startActivity(Intent(this,SignInActivity::class.java))
+        }
+    }
+
 }

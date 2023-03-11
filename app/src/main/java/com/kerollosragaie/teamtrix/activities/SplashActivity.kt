@@ -18,7 +18,6 @@ class SplashActivity : AppCompatActivity() {
         Utils.makeActivityFullScreen(this@SplashActivity)
 
         navigateToActivity()
-
     }
 
     /**

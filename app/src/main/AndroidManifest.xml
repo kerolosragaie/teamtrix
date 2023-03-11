@@ -18,15 +18,23 @@
         android:theme="@style/TEAMTRIX.ActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".activities.SignInActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activities.SignUpActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".activities.IntroActivity"
             android:exported="false"
-            android:theme="@style/TEAMTRIX.NoActionBar"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait"
+            android:theme="@style/TEAMTRIX.NoActionBar" />
         <activity
             android:name=".activities.SplashActivity"
             android:exported="true"
-            android:theme="@style/TEAMTRIX.NoActionBar"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:theme="@style/TEAMTRIX.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
