@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.niqo01.rxplayservices:rx-play-services-task:0.4.0@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/c309113de3b1e64cfde96d30573e0d6e/transformed/jetified-rx-play-services-task-0.4.0/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/c309113de3b1e64cfde96d30573e0d6e/transformed/jetified-rx-play-services-task-0.4.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/e52594bc86586163460421ed55013fdc/transformed/jetified-rx-play-services-task-0.4.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/e52594bc86586163460421ed55013fdc/transformed/jetified-rx-play-services-task-0.4.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/modules-2/files-2.1/com.github.niqo01.rxplayservices/rx-play-services-task/0.4.0/dc033133a8e81033dac2c0eec719c110bed0ec7c/rx-play-services-task-0.4.0-javadoc.jar!/" />

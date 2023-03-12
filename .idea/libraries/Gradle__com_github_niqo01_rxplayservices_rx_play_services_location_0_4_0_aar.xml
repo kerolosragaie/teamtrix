@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.niqo01.rxplayservices:rx-play-services-location:0.4.0@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/e221f5d64d8ad888b7cbff2fc03de707/transformed/jetified-rx-play-services-location-0.4.0/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/e221f5d64d8ad888b7cbff2fc03de707/transformed/jetified-rx-play-services-location-0.4.0/jars/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/0916b0d539a9dfd18f09a21f07397642/transformed/jetified-rx-play-services-location-0.4.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/0916b0d539a9dfd18f09a21f07397642/transformed/jetified-rx-play-services-location-0.4.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/modules-2/files-2.1/com.github.niqo01.rxplayservices/rx-play-services-location/0.4.0/dc033133a8e81033dac2c0eec719c110bed0ec7c/rx-play-services-location-0.4.0-javadoc.jar!/" />

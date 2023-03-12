@@ -16,6 +16,6 @@ class SignUpActivity : AppCompatActivity() {
 
 
         Utils.makeActivityFullScreen(this@SignUpActivity)
-        Utils.setUpActionbar(binding.tbSignUp,this@SignUpActivity,this@SignUpActivity)
+        Utils.setUpActionbar(binding.tbSignUp,this@SignUpActivity)
     }
 }

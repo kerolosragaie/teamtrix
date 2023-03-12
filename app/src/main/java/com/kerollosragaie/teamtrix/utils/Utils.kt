@@ -1,6 +1,7 @@
 package com.kerollosragaie.teamtrix.utils
 
 import android.app.Activity
+import android.content.Context
 import android.os.Build
 import android.view.View
 import android.view.WindowInsets
@@ -30,7 +31,9 @@ object Utils {
     /**
      * Setup top action bar
      * */
-    fun setUpActionbar(view: View,appCompatActivity : AppCompatActivity,componentActivity : ComponentActivity){
+    fun setUpActionbar(view: View,context: Context){
+        val appCompatActivity = context as AppCompatActivity
+        val componentActivity = context as ComponentActivity
         appCompatActivity.setSupportActionBar(view as Toolbar)
         val actionBar = appCompatActivity.supportActionBar
         if(actionBar!=null){
@@ -38,6 +41,7 @@ object Utils {
             actionBar.setHomeAsUpIndicator(R.drawable.ic_arrow_back)
         }
         view.setNavigationOnClickListener {
+
             componentActivity.onBackPressedDispatcher.onBackPressed()
         }
     }

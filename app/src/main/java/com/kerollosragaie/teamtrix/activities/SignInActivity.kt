@@ -15,6 +15,6 @@ class SignInActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         Utils.makeActivityFullScreen(this@SignInActivity)
-        Utils.setUpActionbar(binding.tbSignIn,this@SignInActivity,this@SignInActivity)
+        Utils.setUpActionbar(binding.tbSignIn,this@SignInActivity)
     }
 }
