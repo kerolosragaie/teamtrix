@@ -9,6 +9,8 @@ import android.view.WindowManager
 import androidx.activity.ComponentActivity
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
+import androidx.core.content.ContextCompat
+import com.google.android.material.snackbar.Snackbar
 import com.kerollosragaie.teamtrix.R
 
 object Utils {
@@ -31,12 +33,12 @@ object Utils {
     /**
      * Setup top action bar
      * */
-    fun setUpActionbar(view: View,context: Context){
+    fun setUpActionbar(view: View, context: Context) {
         val appCompatActivity = context as AppCompatActivity
         val componentActivity = context as ComponentActivity
         appCompatActivity.setSupportActionBar(view as Toolbar)
         val actionBar = appCompatActivity.supportActionBar
-        if(actionBar!=null){
+        if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true)
             actionBar.setHomeAsUpIndicator(R.drawable.ic_arrow_back)
         }
@@ -45,5 +47,7 @@ object Utils {
             componentActivity.onBackPressedDispatcher.onBackPressed()
         }
     }
+
+
 
 }

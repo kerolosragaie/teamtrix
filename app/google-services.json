@@ -113,6 +113,42 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100752628030:android:be8dcdf24e4066fa26746f",
+        "android_client_info": {
+          "package_name": "com.kerollosragaie.teamtrix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100752628030-f6tam2so7j9k611fo516bb8048l8iuu9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClCdO7PkfpOucPRpOWMGuYCG5qyK_Z9Co"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "100752628030-f6tam2so7j9k611fo516bb8048l8iuu9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "100752628030-i62db463no4giuk729guro4npmehtjul.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kerollosragaie.flashChatFlutter"
+              }
+            }
+          ]
+        }
+      }
     }
   ],
   "configuration_version": "1"

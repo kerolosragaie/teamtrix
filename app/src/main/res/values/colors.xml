@@ -12,5 +12,6 @@
     <color name="logo">#4a99aa</color>
     <color name="primary_text_color">#000000</color>
     <color name="secondary_text_color">#65b7d1</color>
+    <color name="transparent">#80FFFFFF</color>
 
 </resources>

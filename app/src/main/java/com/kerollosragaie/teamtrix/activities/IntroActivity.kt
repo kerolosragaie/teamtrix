@@ -6,7 +6,7 @@ import android.os.Bundle
 import com.kerollosragaie.teamtrix.databinding.ActivityIntroBinding
 import com.kerollosragaie.teamtrix.utils.Utils
 
-class IntroActivity : AppCompatActivity() {
+class IntroActivity : BaseActivity() {
     private lateinit var binding:ActivityIntroBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,6 +25,7 @@ class IntroActivity : AppCompatActivity() {
         }
         binding.btnSignIn.setOnClickListener {
             startActivity(Intent(this,SignInActivity::class.java))
+            //startActivity(Intent(this,BaseActivity::class.java))
         }
     }
 
