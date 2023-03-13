@@ -6,12 +6,13 @@ import android.os.Build
 import android.view.View
 import android.view.WindowInsets
 import android.view.WindowManager
+import android.view.inputmethod.InputMethodManager
 import androidx.activity.ComponentActivity
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
-import androidx.core.content.ContextCompat
-import com.google.android.material.snackbar.Snackbar
+import androidx.core.content.ContextCompat.getSystemService
 import com.kerollosragaie.teamtrix.R
+
 
 object Utils {
 
@@ -48,6 +49,28 @@ object Utils {
         }
     }
 
+    /**
+     * To hide keyboard if shown
+     * @view needs this.currentFocus
+     * @context needs context too
+     * */
+    fun hideSoftKeyboard(view: View,context: Context) {
+        val imm = context.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+        imm.hideSoftInputFromWindow(view.windowToken, 0)
+    }
 
+    /**
+     * To show keyboard if shown
+     * @view needs this.currentFocus
+     * @context needs context too
+     * */
+
+    fun showSoftKeyboard(view: View,context: Context) {
+        if (view.requestFocus()) {
+            val imm: InputMethodManager =
+                context.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+            imm.showSoftInput(view, InputMethodManager.SHOW_IMPLICIT)
+        }
+    }
 
 }

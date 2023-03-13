@@ -5,11 +5,15 @@ import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Message
+import android.view.Gravity
 import android.view.View
 import android.view.Window
+import android.view.animation.Animation
+import android.widget.FrameLayout
 import android.widget.TextView
 import android.widget.Toast
 import androidx.core.content.ContextCompat
+import com.google.android.material.snackbar.BaseTransientBottomBar
 import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.auth.FirebaseAuth
 import com.kerollosragaie.teamtrix.R
@@ -21,7 +25,7 @@ import java.util.*
 open class BaseActivity : AppCompatActivity() {
     private var doubleBackToExitPressedOnce = false
 
-    private lateinit var mProgressDialog: ProgressDialog
+    lateinit var mProgressDialog: ProgressDialog
 
     private lateinit var binding: ActivityBaseBinding
 
