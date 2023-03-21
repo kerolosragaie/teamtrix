@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.oktavianto:ionalert:1.0.4@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/9bc532a3635e159783d6c37cb8503334/transformed/jetified-ionalert-1.0.4/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/9bc532a3635e159783d6c37cb8503334/transformed/jetified-ionalert-1.0.4/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/9bc532a3635e159783d6c37cb8503334/transformed/jetified-ionalert-1.0.4/res" />
+      <root url="jar://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/e7cb7b64b7af933e5b0e9266661e4566/transformed/jetified-ionalert-1.0.4/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/e7cb7b64b7af933e5b0e9266661e4566/transformed/jetified-ionalert-1.0.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/e7cb7b64b7af933e5b0e9266661e4566/transformed/jetified-ionalert-1.0.4/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

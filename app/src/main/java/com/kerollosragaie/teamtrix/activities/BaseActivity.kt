@@ -1,24 +1,12 @@
 package com.kerollosragaie.teamtrix.activities
 
-import android.app.Dialog
-import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Message
-import android.view.Gravity
-import android.view.View
-import android.view.Window
-import android.view.animation.Animation
-import android.widget.FrameLayout
-import android.widget.TextView
 import android.widget.Toast
 import androidx.core.content.ContextCompat
-import com.google.android.material.snackbar.BaseTransientBottomBar
 import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.auth.FirebaseAuth
-import com.kerollosragaie.teamtrix.R
 import com.kerollosragaie.teamtrix.databinding.ActivityBaseBinding
-import com.kerollosragaie.teamtrix.databinding.DialogProgressLayoutBinding
 import com.kerollosragaie.teamtrix.utils.ProgressDialog
 import java.util.*
 
@@ -42,7 +30,13 @@ open class BaseActivity : AppCompatActivity() {
 
 
     private fun getCurrentUserId(): String {
-        return FirebaseAuth.getInstance().currentUser!!.uid
+        val currentUser = FirebaseAuth.getInstance().currentUser!!
+        var currentUserId = ""
+        if(currentUser!=null){
+            currentUserId = currentUser.uid
+        }
+
+        return currentUserId
     }
 
     /**

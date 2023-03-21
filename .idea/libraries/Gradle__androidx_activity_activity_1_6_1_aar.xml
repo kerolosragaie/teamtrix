@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.activity:activity:1.6.1@aar">
     <ANNOTATIONS>
-      <root url="jar://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/14ea55225541322da6f9f9cc8dfdaaec/transformed/jetified-activity-1.6.1/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/f6de6f38823d477708a50f82ea624c3e/transformed/jetified-activity-1.6.1/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/14ea55225541322da6f9f9cc8dfdaaec/transformed/jetified-activity-1.6.1/res" />
-      <root url="file://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/14ea55225541322da6f9f9cc8dfdaaec/transformed/jetified-activity-1.6.1/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/14ea55225541322da6f9f9cc8dfdaaec/transformed/jetified-activity-1.6.1/jars/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/f6de6f38823d477708a50f82ea624c3e/transformed/jetified-activity-1.6.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/f6de6f38823d477708a50f82ea624c3e/transformed/jetified-activity-1.6.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/f6de6f38823d477708a50f82ea624c3e/transformed/jetified-activity-1.6.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

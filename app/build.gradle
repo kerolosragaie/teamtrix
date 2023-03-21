@@ -50,6 +50,7 @@ dependencies {
     implementation "androidx.activity:activity-ktx:1.6.1"
     //Glide for images
     implementation 'com.github.bumptech.glide:glide:4.13.0'
+    implementation 'androidx.core:core-ktx:1.9.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.13.0'
     //to make image circular
     implementation 'de.hdodenhof:circleimageview:3.1.0'
@@ -68,6 +69,7 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:31.2.3')
     implementation 'com.google.firebase:firebase-analytics-ktx'
     implementation 'com.google.firebase:firebase-auth-ktx'
+    implementation 'com.google.firebase:firebase-firestore:24.4.4'
 
 
     implementation 'androidx.core:core-ktx:1.9.0'
