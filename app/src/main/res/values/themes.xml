@@ -25,6 +25,10 @@
         <item name="windowNoTitle">true</item>
         <item name="android:statusBarColor">@color/status_bar</item>
     </style>
+
+    <style name="TEAMTRIX.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="TEAMTRIX.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
     <style name="TEAMTRIX.ProgressDialog">
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowBackground">@android:color/transparent</item>

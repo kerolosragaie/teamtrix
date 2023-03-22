@@ -29,8 +29,7 @@ class SplashActivity : AppCompatActivity() {
             override fun run() {
                 var currentUserId = FirestoreServices().getCurrentUserId()
                 if (currentUserId.isNotEmpty()) {
-                    //val intent = Intent(this@SplashActivity, MainActivity::class.java)
-                    val intent = Intent(this@SplashActivity, IntroActivity::class.java)
+                    val intent = Intent(this@SplashActivity, MainActivity::class.java)
                     startActivity(intent)
                     finish()
                 } else {

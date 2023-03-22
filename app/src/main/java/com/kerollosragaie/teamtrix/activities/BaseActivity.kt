@@ -28,17 +28,6 @@ open class BaseActivity : AppCompatActivity() {
         }
     }
 
-
-    private fun getCurrentUserId(): String {
-        val currentUser = FirebaseAuth.getInstance().currentUser!!
-        var currentUserId = ""
-        if(currentUser!=null){
-            currentUserId = currentUser.uid
-        }
-
-        return currentUserId
-    }
-
     /**
      * Press double twice to exit app
      * */

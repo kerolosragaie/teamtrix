@@ -25,7 +25,6 @@ class IntroActivity : BaseActivity() {
         }
         binding.btnSignIn.setOnClickListener {
             startActivity(Intent(this,SignInActivity::class.java))
-            //startActivity(Intent(this,BaseActivity::class.java))
         }
     }
 
