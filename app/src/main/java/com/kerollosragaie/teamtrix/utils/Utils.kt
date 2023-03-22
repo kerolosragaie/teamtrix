@@ -2,7 +2,10 @@ package com.kerollosragaie.teamtrix.utils
 
 import android.app.Activity
 import android.content.Context
+import android.graphics.Rect
 import android.os.Build
+import android.util.Log
+import android.util.TypedValue
 import android.view.View
 import android.view.WindowInsets
 import android.view.WindowManager
@@ -53,17 +56,16 @@ object Utils {
 
     /**
      * To hide keyboard if shown
-     * @view needs this.currentFocus
-     * @context needs context too
+     * @view needs binding.root
+     * @activity needs current activity
      * */
-    fun hideSoftKeyboard(view: View, context: Context) {
-        //TODO need to be fixed
-        val imm by lazy { context.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager }
-        imm.hideSoftInputFromWindow(view.windowToken, 0)
+    fun hideSoftKeyboard(activity: Activity,view: View) {
+        val imm = activity.applicationContext
+            .getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+        if(imm.isActive){
+            imm.hideSoftInputFromWindow(view.windowToken,0)
+        }
     }
-
-    private fun isKeyboardVisible(rootView: View) =
-        ViewCompat.getRootWindowInsets(rootView)!!.isVisible(WindowInsetsCompat.Type.ime())
 
     /**
      * To show keyboard if shown

@@ -28,7 +28,7 @@ class SignUpActivity : BaseActivity() {
     //To setup buttons
     private fun setupBttns() {
         binding.btnCreateAccount.setOnClickListener {
-            // Utils.hideSoftKeyboard(this@SignUpActivity.currentFocus!!, this@SignUpActivity)
+            Utils.hideSoftKeyboard(this@SignUpActivity, binding.root)
             registerUser()
         }
     }

@@ -32,13 +32,13 @@ class SignInActivity : BaseActivity() {
 
     private fun setupBttns() {
         binding.btnSignIn.setOnClickListener {
-            //Utils.hideSoftKeyboard(this@SignInActivity.currentFocus!!, this@SignInActivity)
+            Utils.hideSoftKeyboard(this@SignInActivity, binding.root)
             signInRegisteredUser()
         }
     }
 
     /**
-     * User successfully signedin
+     * User successfully signed in
      * */
     fun signInSuccess(userModel: UserModel) {
         mProgressDialog.dismissDialog()

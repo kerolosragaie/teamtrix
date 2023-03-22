@@ -46,18 +46,18 @@ class FirestoreServices {
         return currentUserId
     }
 
-    fun getCurrentUserData():UserModel{
-        var loggedInUser :UserModel?=null
+    fun getCurrentUserData():UserModel?{
+        var loggedInUserData :UserModel?=null
         mFirestore.collection(Constants.USERS).document(getCurrentUserId())
             .get()
             .addOnSuccessListener {
                     document ->
-                loggedInUser = document.toObject(UserModel::class.java)!!
+                loggedInUserData = document.toObject(UserModel::class.java)!!
 
             }.addOnFailureListener {
                     e->
                 Log.e(Constants.GET_USER_ERROR,"Error: ${e.message}")
             }
-        return loggedInUser!!
+        return loggedInUserData
     }
 }
