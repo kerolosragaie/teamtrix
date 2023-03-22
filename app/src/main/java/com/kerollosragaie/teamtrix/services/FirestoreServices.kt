@@ -46,7 +46,11 @@ class FirestoreServices {
         return currentUserId
     }
 
-    suspend fun getCurrentUserData():UserModel?{
+    fun signOut(){
+        FirebaseAuth.getInstance().signOut()
+    }
+
+    fun getCurrentUserData():UserModel?{
         var loggedInUserData :UserModel?=null
         mFirestore.collection(Constants.USERS).document(getCurrentUserId())
             .get()

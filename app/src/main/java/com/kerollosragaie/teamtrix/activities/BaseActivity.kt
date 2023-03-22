@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.core.content.ContextCompat
 import com.google.android.material.snackbar.Snackbar
-import com.google.firebase.auth.FirebaseAuth
 import com.kerollosragaie.teamtrix.databinding.ActivityBaseBinding
 import com.kerollosragaie.teamtrix.utils.ProgressDialog
 import java.util.*
@@ -31,7 +30,7 @@ open class BaseActivity : AppCompatActivity() {
     /**
      * Press double twice to exit app
      * */
-    private fun doubleBackToExit() {
+    fun doubleBackToExit() {
         if (doubleBackToExitPressedOnce) {
             super.getOnBackPressedDispatcher().onBackPressed()
             return
