@@ -4,16 +4,22 @@ package com.kerollosragaie.teamtrix.activities
 import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
+import android.widget.ImageView
+import android.widget.TextView
 import android.widget.Toast
 import androidx.core.view.GravityCompat
+import com.bumptech.glide.Glide
 import com.google.android.material.navigation.NavigationView
 import com.kerollosragaie.teamtrix.R
 import com.kerollosragaie.teamtrix.databinding.ActivityMainBinding
+import com.kerollosragaie.teamtrix.models.UserModel
 import com.kerollosragaie.teamtrix.services.FirestoreServices
 import id.ionbit.ionalert.IonAlert
 
-class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedListener {
+
+class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedListener{
     private lateinit var binding: ActivityMainBinding
+    private lateinit var currentUserData:UserModel
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
@@ -22,7 +28,24 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
         setUpActionbar()
 
         binding.navView.setNavigationItemSelectedListener(this)
+
+        mProgressDialog.showDialog()
+        FirestoreServices().signinUser(this@MainActivity)
     }
+    fun updateNavigationUserDetails(user:UserModel){
+        currentUserData = user
+        val civProfile = findViewById<ImageView>(R.id.civ_profile)
+        val nameProfile = findViewById<TextView>(R.id.tv_username)
+        nameProfile.text = user.name
+        Glide
+            .with(this)
+            .load(user.image)
+            .centerCrop()
+            .placeholder(R.drawable.ic_profile)
+            .into(civProfile)
+        mProgressDialog.dismissDialog()
+    }
+
 
 
     /**
@@ -40,6 +63,7 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
         }
     }
 
+    @Deprecated("Deprecated in Java")
     override fun onBackPressed() {
         if (binding.drawerLayout.isDrawerOpen(GravityCompat.START)) {
             binding.drawerLayout.closeDrawer(GravityCompat.START)

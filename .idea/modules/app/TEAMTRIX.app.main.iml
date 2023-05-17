@@ -15,131 +15,131 @@
             <stringArg name="classpath">
               <args>
                 <arg>$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/a40e54bb49e8a55da0f81683847f060d/transformed/jetified-viewbinding-7.4.2-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/2bc89e6acd5365beac6f2328cc6666bf/transformed/jetified-activity-ktx-1.6.1-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/59a947f14b339a8820051c7e8e54cf2c/transformed/jetified-lifecycle-runtime-ktx-2.5.1-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/b2b4df4774072df82a1249161e786855/transformed/jetified-lifecycle-viewmodel-ktx-2.5.1-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/8cdaff5358f09cfcc0b795fb8e600ea5/transformed/jetified-dexter-6.2.3-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/a92312933a384e8a5a5943e2de9a1d25/transformed/material-1.8.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/50a5dd86c1af494d1950bf0a6d3229a8/transformed/appcompat-1.6.1-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/e83ccdced412e3473d4f4328fab7e837/transformed/jetified-glide-4.13.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/949e4cc5764592ee8f39c235ded80d6e/transformed/jetified-viewpager2-1.0.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/7d9e531673f432012ac9dd11ff67842c/transformed/jetified-rx-play-services-location-0.4.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/a25c767c820ba936cab2e44ba6116d0b/transformed/jetified-play-services-location-21.0.1-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/25b6cd3d2e64d73b119babbeba57a636/transformed/jetified-firebase-firestore-24.4.4-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/dd62a8bf43806d09997d50493686aeae/transformed/jetified-rx-play-services-task-0.4.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/b625f37612ab1893d0d52b2a1632256a/transformed/jetified-firebase-database-collection-18.0.1-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/cc8d626335365071a700701684d5134f/transformed/jetified-firebase-appcheck-interop-16.1.1-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/5f59359f5126fd231c3e1aba76cae410/transformed/jetified-firebase-auth-ktx-21.1.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/bf6c5db37f187e4634b833f7777ef1a6/transformed/jetified-firebase-auth-21.1.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/8d22275de770803fc8f82f3c75db4fcc/transformed/jetified-play-services-auth-api-phone-17.4.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/6b65079996ecf708c2d8529cc5d4b075/transformed/jetified-play-services-safetynet-17.0.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/ba7674365b401012c0e0f270e626a844/transformed/jetified-play-services-base-18.1.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/b4b8a7b6e365b43e2fc44974dbcde515/transformed/jetified-firebase-analytics-ktx-21.2.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/7f1af37bbeecf7395e8bae6c5b4dbcd2/transformed/jetified-firebase-common-ktx-20.3.1-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/975e3cb4904014e50712478a481a3e33/transformed/jetified-firebase-auth-interop-20.0.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/43d709cfa42c7b3657911d2a21c83508/transformed/jetified-firebase-analytics-21.2.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/44d3306d230adf855b6e749fda7b916c/transformed/jetified-play-services-measurement-api-21.2.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/a7f42436c907d9244470c9703dd226a3/transformed/jetified-firebase-installations-17.1.3-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/de2fe60e332e2b905837fc56aa38634e/transformed/jetified-firebase-common-20.3.1-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/399a014a56e0bba964b7b362757e206b/transformed/jetified-kotlinx-coroutines-core-jvm-1.6.4.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/cdf7dfb7b1f00cb5a0ec8de01ca050fb/transformed/jetified-kotlinx-coroutines-play-services-1.6.4.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/05a4f486d9ce1590fc01c94ac5a0ae6d/transformed/jetified-firebase-installations-interop-17.1.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/a9973bf1346407418bc54b28d6a8f954/transformed/jetified-play-services-tasks-18.0.2-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/dc17cc92c88ef9d4e08c3c60c65cb9f4/transformed/jetified-play-services-measurement-21.2.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/91e4ba75b8580b09200ed6903789835b/transformed/jetified-play-services-measurement-sdk-21.2.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/82c305185f497fe96e33c5ca6c607953/transformed/jetified-play-services-measurement-impl-21.2.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/8909df0d01575793d5f16b8ce25d7149/transformed/jetified-play-services-ads-identifier-18.0.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/ce867b352bd54b9e451393b9e93b66b9/transformed/jetified-play-services-measurement-sdk-api-21.2.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/96db5b49ac5268b49c854d7380a200f1/transformed/jetified-play-services-measurement-base-21.2.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/18aef395e0108a8349ff06d407a63677/transformed/jetified-play-services-stats-17.0.2-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/c0ee9a2d3b04e9e51c8bf18439a1d7ff/transformed/jetified-firebase-measurement-connector-19.0.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/ec33bdeae45a05ddc2024179c4a8ec7b/transformed/jetified-play-services-basement-18.1.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/7da54e894736404c2db9009daa2f6f04/transformed/jetified-pugnotification-1.8.1-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/d8c82347cfe8cc20d706aed939fb53c3/transformed/legacy-support-v4-1.0.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/4847b5be61789fc2c7d9734cca15d98a/transformed/fragment-1.3.6-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/ae004d852945bc595123b81b2f1ecef1/transformed/jetified-activity-1.6.1-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/b5a5c490fcf2b8f81526e861b93afa90/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/e58214bc470cac0c5fdd4ddba2baaa5c/transformed/jetified-kotlinx-coroutines-android-1.6.4.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/142103404a0cea4f766a252edf0910f8/transformed/jetified-kotlin-stdlib-jdk8-1.8.20-RC.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/ee86db4c1b2c7d3160f607d998d732db/transformed/jetified-core-ktx-1.9.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/fb276649609acb97b888d0c55554fb49/transformed/jetified-gifdecoder-4.13.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/bbb05e7da7253d913ba0867051bfced1/transformed/exifinterface-1.2.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/c4160ba2dc714c46bd5ef1e37644855e/transformed/legacy-support-core-ui-1.0.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/cde85116a75629acd8bd54beb4cb7913/transformed/coordinatorlayout-1.1.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/e7f75fb479af223a13ba3ed05d01b9ef/transformed/drawerlayout-1.1.1-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/58e980bb05fc072028dc00592aab9d2e/transformed/dynamicanimation-1.0.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/302a2fc89c52b39aa06fa76c34ee30d1/transformed/recyclerview-1.1.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/7257d2843237370e54d0f8575b4ace84/transformed/transition-1.2.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/dabfe9fa299b7b6b27c3b6641fc7fa4c/transformed/jetified-appcompat-resources-1.6.1-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/9a98c6eb39d7a42f226794584a105cd6/transformed/vectordrawable-animated-1.1.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/35081263bf0dfa9f30b7173930b6b5e0/transformed/vectordrawable-1.1.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/4af55fc59ee9d7c2db0d7b8b7daf090d/transformed/viewpager-1.0.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/ca50788fb03429dfb63bcc48c0e91724/transformed/legacy-support-core-utils-1.0.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/1e23fdf9f387befcfaa2bb9881618444/transformed/loader-1.0.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/84aee374ccb4ade310a01bb63adf44a1/transformed/slidingpanelayout-1.0.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/4ae7e7f030d35188245cd15e4bce3ca3/transformed/customview-1.1.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/83339cb6c48677e97860dac55982d106/transformed/media-1.0.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/b8af076d26d04597f880c5a17adbd12f/transformed/browser-1.4.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/d66a50d667ec1b65b16d8f72b87e8a13/transformed/swiperefreshlayout-1.0.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/7c97d017b2e2825ac49b5bbf62cd9ea1/transformed/asynclayoutinflater-1.0.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/d3b49e74698e81ea2151303cbb623b1a/transformed/core-1.9.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/c5f858014e0777fd50901ebed7cddb77/transformed/cardview-1.0.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/16d21ffea9ba145a8e6e1d5a2b5a7f4b/transformed/lifecycle-runtime-2.5.1-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/b04cc062a368306c82d42596eb355cd6/transformed/jetified-firebase-components-17.1.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/5b750eb98f73df488ebae8f8ce250f6a/transformed/cursoradapter-1.0.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/b79d360bc65d23c32481a58363ee2e88/transformed/jetified-savedstate-ktx-1.2.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/70b68c06f2a78487fc5da727dc5c4557/transformed/jetified-savedstate-1.2.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/b1a55d1adb01edf16ae2b24e38645348/transformed/lifecycle-viewmodel-2.5.1-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/a09b59db184b99ebef2a11098001d632/transformed/versionedparcelable-1.1.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/171f7fa874bc739f4375c10252223e42/transformed/jetified-viewbinding-8.0.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/7e60053ac21e3e3e74a663f6eefa8da8/transformed/jetified-activity-ktx-1.6.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/ef6a708f4b50981e7bfd647f4fa6f658/transformed/jetified-lifecycle-runtime-ktx-2.5.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/b355c100047a20d17751470ce14bf953/transformed/jetified-lifecycle-viewmodel-ktx-2.5.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/5fd3010c1aa84151e4718f368af8bfea/transformed/jetified-dexter-6.2.3-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/460161b7cb2c02789c76ec190d9c0b62/transformed/material-1.8.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/717bf2d27a3a2f713f14fe307f52cee2/transformed/appcompat-1.6.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/c3e3f44aa387765ecab71ebae05ca6e5/transformed/jetified-glide-4.13.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/00ba155c94187e8317af43deb2f391a9/transformed/jetified-viewpager2-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/5e68dd4076d99d6d8a2cf0e7d9685cf1/transformed/jetified-rx-play-services-location-0.4.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/7d40f678f047c194188772e32a69f4ca/transformed/jetified-play-services-location-21.0.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/c860c35005ecf42be348e55d4b905cbd/transformed/jetified-firebase-firestore-24.4.4-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/bfdd71f6421540b1c4c8c2cf7f3c5b5d/transformed/jetified-rx-play-services-task-0.4.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/ba2021ab2bf1a406ffcd6d38643c7446/transformed/jetified-firebase-database-collection-18.0.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/b53097a4d7592d11c95ea10968e06775/transformed/jetified-firebase-appcheck-interop-16.1.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/c272200e1ddf6eebb3a95c889fd74e2a/transformed/jetified-firebase-auth-ktx-21.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/8a41481b35e358631ac8692e4b53ab37/transformed/jetified-firebase-auth-21.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/937b16827f3af5c2af705565d33624cc/transformed/jetified-play-services-auth-api-phone-17.4.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/17e888fba8a0b6e6d2701d3934f41d71/transformed/jetified-play-services-safetynet-17.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/dd7a7ec007b6ed1f857856f0da78b82d/transformed/jetified-play-services-base-18.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/23236da683ab6ea2a99a817412e47568/transformed/jetified-firebase-analytics-ktx-21.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/8cc3420f800f9e758ddaab8e2fddd15f/transformed/jetified-firebase-common-ktx-20.3.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/c0b8dfdc5d05db9265612571a9690625/transformed/jetified-firebase-auth-interop-20.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/182f4c1f854f7ac30b784ac5e54e174c/transformed/jetified-firebase-analytics-21.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/ea92c620475262f95f0b6e77715c3cb2/transformed/jetified-play-services-measurement-api-21.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/5f71161de3c1f2af92769a4885eb9a48/transformed/jetified-firebase-installations-17.1.3-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/26e12852660a9990ce665858ff4e1656/transformed/jetified-firebase-common-20.3.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/d97d7b5c1fa6b28e65552af1e31a91ff/transformed/jetified-kotlinx-coroutines-core-jvm-1.6.4.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/48503713d1cc0ae56584b6213890f3f0/transformed/jetified-kotlinx-coroutines-play-services-1.6.4.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/3baad62bf40a0d07a1eef9e417174f13/transformed/jetified-firebase-installations-interop-17.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/2c8cf512181f28421bad8ce542b7754a/transformed/jetified-play-services-tasks-18.0.2-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/5b69be5c0aa5b225e411413ba9b11688/transformed/jetified-play-services-measurement-21.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/e8ef7de592baebfc5ab6a7a22243651f/transformed/jetified-play-services-measurement-sdk-21.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/0dae0f8fafafad049e8551e42f62e32f/transformed/jetified-play-services-measurement-impl-21.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/8ac7166600d6b13a21acdf8f43faf19b/transformed/jetified-play-services-ads-identifier-18.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/3cd8555ebb8dd3e7199d9e7668fac8ee/transformed/jetified-play-services-measurement-sdk-api-21.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/3d12fcacb5a888269532490327370ca0/transformed/jetified-play-services-measurement-base-21.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/6168f0a6280535942586333938aa2252/transformed/jetified-play-services-stats-17.0.2-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/e6ba526a3654f03d3a38676ff8add7d8/transformed/jetified-firebase-measurement-connector-19.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/65e4aaf277fc62ca26228ed342991bb4/transformed/jetified-play-services-basement-18.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/8d79cb0e7778327f7c557a021886063c/transformed/jetified-pugnotification-1.8.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/af9eefc3837a794355c85274fb49e306/transformed/legacy-support-v4-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/d06fcec2461c000aa9db70dcf66599df/transformed/fragment-1.3.6-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/6f586979a6f4624e17f6ac54f19d5e8d/transformed/jetified-activity-1.6.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/adc32d3367ba2b7a68e2761e892b0681/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/fed47a64d9b18aeae9809e4d9bc7a717/transformed/jetified-kotlinx-coroutines-android-1.6.4.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/6fd66d3cd2714cf593b30b5b7f24db27/transformed/jetified-kotlin-stdlib-jdk8-1.8.20-RC.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/21315c2542a97561bbefc275ebd9f4dd/transformed/jetified-core-ktx-1.9.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/ed9880a9ba3baac5f65caa9593e3bc35/transformed/jetified-gifdecoder-4.13.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/47b466c71b3cd6d0f82b1abab16fdfa9/transformed/exifinterface-1.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/16999c8847ae5fe86aecf959a79a7794/transformed/legacy-support-core-ui-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/713f449c9174c1444fb4ecaab0e60c45/transformed/coordinatorlayout-1.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/72664ce15d5aaa806df9bc461778f88d/transformed/drawerlayout-1.1.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/f1f33d5533a846867ea15664d41828d6/transformed/dynamicanimation-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/b6d3456c5522131442af1a432b6435c6/transformed/recyclerview-1.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/06ab762031e17922e48aa30d7743f2bb/transformed/transition-1.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/4b8bd8a80f1607bb1df41f1d32029190/transformed/jetified-appcompat-resources-1.6.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/0b98d0d4f2cf7bdf2b39c798c4436943/transformed/vectordrawable-animated-1.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/ceeb9bdf2a1e3c40b97c9cd52b138417/transformed/vectordrawable-1.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/7b7d566dfa2ec9119ce71262499b70a1/transformed/viewpager-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/a82f65f448ee70c9a8f020bb368decae/transformed/legacy-support-core-utils-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/d08496577c2c6cfe552d2552548bddef/transformed/loader-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/5a05c99ca7c124ca3bf7843cd5a26bf1/transformed/slidingpanelayout-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/bf553333494f27d55ec9c4bc2234ccf5/transformed/customview-1.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/850c1dd5bf65e99656dafd17b4989705/transformed/media-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/2a21485469124264acddd2ecdd3fdecc/transformed/browser-1.4.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/61e824779012d8308bbcb42740354883/transformed/swiperefreshlayout-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/b05a9311c81c3657ad25eb00033427c7/transformed/asynclayoutinflater-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/5c47f44b8bf493329dc867b7cde2d375/transformed/core-1.9.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/8dc5c935b513229c45d43709c7b1f1cf/transformed/cardview-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/168421751ee800e71d19b9653375ea9b/transformed/lifecycle-runtime-2.5.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/3fb6be52ddd60a93beb916c5eab12cfd/transformed/jetified-firebase-components-17.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/288beda7b0d8f85b81b0bf4cf851ec40/transformed/cursoradapter-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/de1378d39d77af8e3c6d60f4f4d7ad53/transformed/jetified-savedstate-ktx-1.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/20c72c86bb9f56705a5c620f1949bbe2/transformed/jetified-savedstate-1.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/e315176e988224d437a89ce2c5a8d691/transformed/lifecycle-viewmodel-2.5.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/f18985a43b95f2158af13d56de7d4978/transformed/versionedparcelable-1.1.1-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/741aa553c0762c72c17b3721acfd0fe9/transformed/interpolator-1.0.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/7eddc311df3dc493a5ec54c361aa0f38/transformed/lifecycle-livedata-2.0.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/822a2ec9d2dba12c776c9063e1813b94/transformed/core-runtime-2.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/73f4b7ee94bf0feac7ef2f40a48a28d0/transformed/interpolator-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/d6d984dddcab9dba6493022c71a4dffd/transformed/lifecycle-livedata-2.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/357d913eb83c448b904521e6bcf5f01b/transformed/core-runtime-2.1.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/d34ee2ac77c65b97253ed8d2b0847b92/transformed/lifecycle-livedata-core-2.5.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/a5551cc57f5016252003280748cc8b06/transformed/lifecycle-livedata-core-2.5.1-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.5.1/1fdb7349701e9cf2f0a69fc10642b6fef6bb3e12/lifecycle-common-2.5.1.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/12126903d7cac065ea56d7dce4e85d0d/transformed/jetified-concurrent-futures-1.1.0.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/74b27f0962e83bdce3fc2c3e6ef64be9/transformed/localbroadcastmanager-1.0.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/e524e8c973a6b46c3f81b349ee290f1d/transformed/documentfile-1.0.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/c5427b68cc5f8db88f647c315aba2ff1/transformed/print-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/50f83243e4d656b246163463afe0b451/transformed/jetified-concurrent-futures-1.1.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/e1da85604eed1600ba3265fdfc289c07/transformed/localbroadcastmanager-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/1a5b91085b8d1d454fc05bad8ec11d66/transformed/documentfile-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/712987ed697b1372ed152f0c040dfaca/transformed/print-1.0.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/modules-2/files-2.1/androidx.annotation/annotation/1.5.0/857678d6b4ca7b28571ef7935c668bdb57e15027/annotation-1.5.0.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/d2ad35e8f4321131576245e568363fcf/transformed/jetified-kotlin-stdlib-jdk7-1.8.20-RC.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/5a76420cb812464e39eb72f9bfe90ffa/transformed/jetified-annotation-experimental-1.3.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/973d00e9f8334a03c20d4cbf54e756df/transformed/jetified-kotlin-stdlib-1.8.20-RC.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/de200761375fa9bded911930a178b4e8/transformed/jetified-kotlin-stdlib-common-1.8.20-RC.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/48f66e12a22be0b2643a342723f1d831/transformed/jetified-annotations-13.0.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/56578aeef98dc003018d504f05974d6c/transformed/jetified-converter-gson-2.9.0.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/f15b2ca54158d78ad1c3975cd6f10086/transformed/jetified-retrofit-2.9.0.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/5e569f6e9d384d18acecd00e935b0168/transformed/jetified-okhttp-3.14.9.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/0823833a470b9765fc92987a0195e8e4/transformed/jetified-okio-1.17.5.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/e85677f51d4c117f33f63cbb0b577b2c/transformed/jetified-gson-2.10.1.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/ce7cef5a46b46116a52a310680d772b8/transformed/jetified-grpc-stub-1.52.1.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/8f4b7dd64b8f1e76be02aa451c08fd08/transformed/jetified-guava-31.1-android.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/68a1101b187280dca20cccf4e3a89cfc/transformed/jetified-listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/bbb95f24651a1b61568873a77cac2f0f/transformed/jetified-tracing-1.0.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/eac2f3a0254b55345de1750aaab9f249/transformed/jetified-disklrucache-4.13.0.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/5224123db94611919bcb0a895f8dbc32/transformed/jetified-annotations-4.13.0.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/e8daf9131e3484e6657d3cab9f2f5308/transformed/jetified-circleimageview-3.1.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/06fd976abe5a1bda54ff351c061020fd/transformed/jetified-grpc-protobuf-lite-1.52.1.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/9231067fb2fed30d55fdbf8771943495/transformed/jetified-grpc-okhttp-1.52.1.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/2a9e7705c1184c4f42842f744791aba1/transformed/jetified-grpc-android-1.52.1-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/44d5c88eae2f93ba49beaa330e96f191/transformed/jetified-grpc-core-1.52.1.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/d0feed17d6971e44548b392638f4ccc6/transformed/jetified-grpc-api-1.52.1.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/008e717719b5bbee6dff949023512b19/transformed/jetified-error_prone_annotations-2.15.0.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/ca07f123415737e63ffae6ec9ddb832d/transformed/constraintlayout-2.1.4-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/e11c26d19382908e6be01f865e2d66fa/transformed/jetified-rxjava-2.1.6.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/5947017cf547ccc971472c610faf81c3/transformed/jetified-reactive-streams-1.0.1.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/e7e2be61a0e03672e140a5a5269d46c0/transformed/jetified-ionalert-1.0.4-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/a973e56eac22dd7e3ace377a4388c3d8/transformed/jetified-firebase-annotations-16.2.0.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/a9bdcbfd7794b062737c8966643ff14f/transformed/jetified-javax.inject-1.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/b18660d2c28cd63e0538a59c7914c313/transformed/jetified-protolite-well-known-types-18.0.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/b0f985fcd47117cbc989e907cda78b7e/transformed/jetified-protobuf-javalite-3.21.7.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/9e19e3114b5929af9f4fe44013a5deac/transformed/jetified-grpc-context-1.52.1.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/eaf0bf59730f8241ce758b190acf6d72/transformed/jetified-jsr305-3.0.2.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/0868d53d8055c2bfb410ee6e7555640d/transformed/jetified-failureaccess-1.0.1.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/3b3914ebc4ec6f7978b95c6c2fbbec60/transformed/jetified-checker-qual-3.12.0.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/e315aa862a8c9f535a64a9cbb2956437/transformed/jetified-j2objc-annotations-1.3.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/e4c8e9f4d15f7e0a0bb31f1ea6194d79/transformed/jetified-kotlin-stdlib-jdk7-1.8.20-RC.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/4a0ba14a1171a9920110d4207bba1e65/transformed/jetified-annotation-experimental-1.3.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/f6fe13949987b4625dbab010dab3ac36/transformed/jetified-kotlin-stdlib-1.8.20-RC.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/e3a56e8e259d936e188151de1dd726ae/transformed/jetified-kotlin-stdlib-common-1.8.20-RC.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/4188217ab170b7d7f6c5a0a66f780f39/transformed/jetified-annotations-13.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/f9efbeb02d7f4aead8c53fbca8ae5a85/transformed/jetified-converter-gson-2.9.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/7bb043cea088840af6e2ecd4f49c6f28/transformed/jetified-retrofit-2.9.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/8890650aa2d32a9192698c2c1da41533/transformed/jetified-okhttp-3.14.9.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/e6be6b06d585321e4fa37f119d8ee7c2/transformed/jetified-okio-1.17.5.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/4327ddf20a47b37a0706d0c480f6b34f/transformed/jetified-gson-2.10.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/c1d1285f5e880348d2eb76febbcddc20/transformed/jetified-grpc-stub-1.52.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/172126c85d66f63772ccaf33fcdf5a4a/transformed/jetified-guava-31.1-android.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/99c96eda53b514b346e726d5fd1d3ace/transformed/jetified-listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/7ab3d5f784ffd7eb744bdfab9b10e519/transformed/jetified-tracing-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/3ab3e52dca7e892d37997adbc4e8277f/transformed/jetified-disklrucache-4.13.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/46417936c72cc02938023414c952d1a7/transformed/jetified-annotations-4.13.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/2e684ccd3aa3cdf0e195bbeada090f66/transformed/jetified-circleimageview-3.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/8fe526e00d620fc0596c86d554a8a812/transformed/jetified-grpc-protobuf-lite-1.52.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/859fabec7469683877a322aabfe9b7e2/transformed/jetified-grpc-okhttp-1.52.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/870af71a354deb97294ee0005095fd1c/transformed/jetified-grpc-android-1.52.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/6ce7b1862232f1950a8d270f8201d5e6/transformed/jetified-grpc-core-1.52.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/9f048db9128577beb7011a56dc9fdb47/transformed/jetified-grpc-api-1.52.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/fb6d6a2223012da6096d136652bd23fc/transformed/jetified-error_prone_annotations-2.15.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/68a17a55027800c66bb5c6717c13011f/transformed/constraintlayout-2.1.4-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/62ffca575e5a3586c9849a10c589f8e8/transformed/jetified-rxjava-2.1.6.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/b37e9ef0f6c63c55024ba9a898034e48/transformed/jetified-reactive-streams-1.0.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/d0c434cb8b5050e998aa521c170a57f0/transformed/jetified-ionalert-1.0.4-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/e16b2dbed0ce1fd3351b72bfd15c7d62/transformed/jetified-firebase-annotations-16.2.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/d295468ca6f534a5799519c9f131f156/transformed/jetified-javax.inject-1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/b2b2a324ab5545cd802e114fc10ae05a/transformed/jetified-protolite-well-known-types-18.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/e9864f2a94df842b85f726598a4d70e3/transformed/jetified-protobuf-javalite-3.21.7.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/952013cfc9a49b02e69e27706338d3a6/transformed/jetified-grpc-context-1.52.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/6633ab9230755e8599e2078dfea6d7b7/transformed/jetified-jsr305-3.0.2.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/b3a0032f9bd3b7fb849e79f65853b716/transformed/jetified-failureaccess-1.0.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/b3d4e08c63d1a6e2e95d012215fbab36/transformed/jetified-checker-qual-3.12.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/46ab6ed355591ca4a4cba1c56909c37d/transformed/jetified-j2objc-annotations-1.3.jar</arg>
                 <arg>$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-33/android.jar</arg>
                 <arg>$USER_HOME$/AppData/Local/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar</arg>
                 <arg>$MODULE_DIR$/../../../app/build/tmp/kapt3/classes/debug</arg>
@@ -177,8 +177,8 @@
         <option name="ALLOW_USER_CONFIGURATION" value="false" />
         <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
         <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
-        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../app/src/main/res;file://$MODULE_DIR$/../../../app/src/debug/res;file://$MODULE_DIR$/../../../app/build/generated/res/google-services/debug;file://$MODULE_DIR$/../../../app/build/generated/res/rs/debug;file://$MODULE_DIR$/../../../app/build/generated/res/resValues/debug" />
-        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../app/src/androidTest/res;file://$MODULE_DIR$/../../../app/src/androidTestDebug/res;file://$MODULE_DIR$/../../../app/build/generated/res/rs/androidTest/debug;file://$MODULE_DIR$/../../../app/build/generated/res/resValues/androidTest/debug" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../app/src/main/res;file://$MODULE_DIR$/../../../app/src/debug/res;file://$MODULE_DIR$/../../../app/build/generated/res/google-services/debug;file://$MODULE_DIR$/../../../app/build/generated/res/resValues/debug" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="" />
         <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
       </configuration>
     </facet>
@@ -187,18 +187,15 @@
     <output url="file://$MODULE_DIR$/../../../app/build/intermediates/javac/debug/classes" />
     <output-test url="file://$MODULE_DIR$/../../../app/build/intermediates/javac/debugUnitTest/classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../app/build/generated/aidl_source_output_dir/debug/out" />
     <content url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out">
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
     </content>
-    <content url="file://$MODULE_DIR$/../../../app/build/generated/renderscript_source_output_dir/debug/out" />
     <content url="file://$MODULE_DIR$/../../../app/build/generated/res/google-services/debug">
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/res/google-services/debug" type="java-resource" />
     </content>
     <content url="file://$MODULE_DIR$/../../../app/build/generated/res/resValues/debug">
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/res/resValues/debug" type="java-resource" />
     </content>
-    <content url="file://$MODULE_DIR$/../../../app/build/generated/res/rs/debug" />
     <content url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/debug">
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
     </content>
@@ -262,7 +259,7 @@
     <orderEntry type="library" name="Gradle: io.grpc:grpc-protobuf-lite:1.52.1" level="project" />
     <orderEntry type="library" name="Gradle: io.grpc:grpc-okhttp:1.52.1" level="project" />
     <orderEntry type="library" name="Gradle: io.grpc:grpc-core:1.52.1" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.databinding:viewbinding:7.4.2@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.databinding:viewbinding:8.0.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.activity:activity-ktx:1.6.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.activity:activity:1.6.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.core:core:1.9.0@aar" level="project" />

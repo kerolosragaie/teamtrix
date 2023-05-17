@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.halysongoncalves:pugnotification:1.8.1@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/ee413c70eb7a249b20b21f71658d2c9c/transformed/jetified-pugnotification-1.8.1/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/ee413c70eb7a249b20b21f71658d2c9c/transformed/jetified-pugnotification-1.8.1/res" />
-      <root url="file://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/ee413c70eb7a249b20b21f71658d2c9c/transformed/jetified-pugnotification-1.8.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/8dc6517718eefe9b1f4477926dfaacca/transformed/jetified-pugnotification-1.8.1/res" />
+      <root url="jar://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/8dc6517718eefe9b1f4477926dfaacca/transformed/jetified-pugnotification-1.8.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/8dc6517718eefe9b1f4477926dfaacca/transformed/jetified-pugnotification-1.8.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

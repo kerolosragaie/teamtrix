@@ -1,10 +1,12 @@
 package com.kerollosragaie.teamtrix.services
 
 
+import android.app.Activity
 import android.util.Log
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.SetOptions
+import com.kerollosragaie.teamtrix.activities.MainActivity
 import com.kerollosragaie.teamtrix.activities.SignInActivity
 import com.kerollosragaie.teamtrix.activities.SignUpActivity
 import com.kerollosragaie.teamtrix.models.UserModel
@@ -13,15 +15,31 @@ import com.kerollosragaie.teamtrix.utils.Constants
 class FirestoreServices {
     private val mFirestore = FirebaseFirestore.getInstance()
 
-    fun signinUser(activity:SignInActivity){
+    fun signinUser(activity:Activity){
         mFirestore.collection(Constants.USERS).document(getCurrentUserId())
             .get()
             .addOnSuccessListener {
                 document ->
                 val loggedInUser = document.toObject(UserModel::class.java)!!
-                activity.signInSuccess(loggedInUser)
+                when(activity){
+                    is SignInActivity -> {
+                        activity.signInSuccess(loggedInUser)
+                    }
+                    is MainActivity -> {
+                        activity.updateNavigationUserDetails(loggedInUser)
+                    }
+                }
             }.addOnFailureListener {
                     e->
+
+                when(activity){
+                    is SignInActivity -> {
+                        activity.mProgressDialog.dismissDialog()
+                    }
+                    is MainActivity -> {
+                        activity.mProgressDialog.dismissDialog()
+                    }
+                }
                 Log.e(activity.javaClass.simpleName,"Error: ${e.message}")
             }
     }
