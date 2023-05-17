@@ -32,7 +32,7 @@ open class BaseActivity : AppCompatActivity() {
      * */
     fun doubleBackToExit() {
         if (doubleBackToExitPressedOnce) {
-            super.getOnBackPressedDispatcher().onBackPressed()
+            super.onBackPressedDispatcher.onBackPressed()
             return
         }
         this.doubleBackToExitPressedOnce = true
