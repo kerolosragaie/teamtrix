@@ -4,10 +4,11 @@ import android.os.Bundle
 import android.text.TextUtils
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
+import com.kerollosragaie.teamtrix.core.functions.Keyboard
 import com.kerollosragaie.teamtrix.databinding.ActivitySignUpBinding
 import com.kerollosragaie.teamtrix.models.UserModel
 import com.kerollosragaie.teamtrix.services.FirestoreServices
-import com.kerollosragaie.teamtrix.utils.Utils
+import com.kerollosragaie.teamtrix.core.functions.Utils
 import id.ionbit.ionalert.IonAlert
 
 class SignUpActivity : BaseActivity() {
@@ -28,7 +29,7 @@ class SignUpActivity : BaseActivity() {
     //To setup buttons
     private fun setupBttns() {
         binding.btnCreateAccount.setOnClickListener {
-            Utils.hideSoftKeyboard(this@SignUpActivity, binding.root)
+            Keyboard.hideSoftKeyboard(this@SignUpActivity, binding.root)
             registerUser()
         }
     }

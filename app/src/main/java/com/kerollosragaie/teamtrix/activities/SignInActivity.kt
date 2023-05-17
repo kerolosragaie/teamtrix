@@ -8,8 +8,9 @@ import com.google.firebase.auth.FirebaseAuth
 import com.kerollosragaie.teamtrix.databinding.ActivitySignInBinding
 import com.kerollosragaie.teamtrix.models.UserModel
 import com.kerollosragaie.teamtrix.services.FirestoreServices
-import com.kerollosragaie.teamtrix.utils.Constants
-import com.kerollosragaie.teamtrix.utils.Utils
+import com.kerollosragaie.teamtrix.core.Constants
+import com.kerollosragaie.teamtrix.core.functions.Keyboard
+import com.kerollosragaie.teamtrix.core.functions.Utils
 import id.ionbit.ionalert.IonAlert
 
 class SignInActivity : BaseActivity() {
@@ -32,7 +33,7 @@ class SignInActivity : BaseActivity() {
 
     private fun setupBttns() {
         binding.btnSignIn.setOnClickListener {
-            Utils.hideSoftKeyboard(this@SignInActivity, binding.root)
+            Keyboard.hideSoftKeyboard(this@SignInActivity, binding.root)
             signInRegisteredUser()
         }
     }

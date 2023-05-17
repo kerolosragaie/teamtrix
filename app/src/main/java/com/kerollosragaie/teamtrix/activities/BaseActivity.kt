@@ -6,7 +6,7 @@ import android.widget.Toast
 import androidx.core.content.ContextCompat
 import com.google.android.material.snackbar.Snackbar
 import com.kerollosragaie.teamtrix.databinding.ActivityBaseBinding
-import com.kerollosragaie.teamtrix.utils.ProgressDialog
+import com.kerollosragaie.teamtrix.core.Components.ProgressDialog
 import java.util.*
 
 open class BaseActivity : AppCompatActivity() {

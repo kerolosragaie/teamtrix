@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.kerollosragaie.teamtrix.databinding.ActivitySplashBinding
 import com.kerollosragaie.teamtrix.services.FirestoreServices
-import com.kerollosragaie.teamtrix.utils.Utils
+import com.kerollosragaie.teamtrix.core.functions.Utils
 import java.util.*
 
 class SplashActivity : AppCompatActivity() {

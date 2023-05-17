@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.appcompat:appcompat-resources:1.6.1@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/a4e0df5fc9273779efab791b47cc3fea/transformed/jetified-appcompat-resources-1.6.1/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/a4e0df5fc9273779efab791b47cc3fea/transformed/jetified-appcompat-resources-1.6.1/res" />
-      <root url="file://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/a4e0df5fc9273779efab791b47cc3fea/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/07ae5bc1b9a4b222f1b661710e11fd38/transformed/jetified-appcompat-resources-1.6.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/07ae5bc1b9a4b222f1b661710e11fd38/transformed/jetified-appcompat-resources-1.6.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/07ae5bc1b9a4b222f1b661710e11fd38/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -1,11 +1,8 @@
-package com.kerollosragaie.teamtrix.utils
+package com.kerollosragaie.teamtrix.core.functions
 
 import android.app.Activity
 import android.content.Context
-import android.graphics.Rect
 import android.os.Build
-import android.util.Log
-import android.util.TypedValue
 import android.view.View
 import android.view.WindowInsets
 import android.view.WindowManager
@@ -13,9 +10,6 @@ import android.view.inputmethod.InputMethodManager
 import androidx.activity.ComponentActivity
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
-import androidx.core.content.ContextCompat.getSystemService
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.kerollosragaie.teamtrix.R
 
 
@@ -51,33 +45,6 @@ object Utils {
         view.setNavigationOnClickListener {
 
             componentActivity.onBackPressedDispatcher.onBackPressed()
-        }
-    }
-
-    /**
-     * To hide keyboard if shown
-     * @view needs binding.root
-     * @activity needs current activity
-     * */
-    fun hideSoftKeyboard(activity: Activity,view: View) {
-        val imm = activity.applicationContext
-            .getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
-        if(imm.isActive){
-            imm.hideSoftInputFromWindow(view.windowToken,0)
-        }
-    }
-
-    /**
-     * To show keyboard if shown
-     * @view needs this.currentFocus
-     * @context needs context too
-     * */
-
-    fun showSoftKeyboard(view: View, context: Context) {
-        if (view.requestFocus()) {
-            val imm: InputMethodManager =
-                context.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
-            imm.showSoftInput(view, InputMethodManager.SHOW_IMPLICIT)
         }
     }
 

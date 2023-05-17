@@ -1,4 +1,4 @@
-package com.kerollosragaie.teamtrix.utils
+package com.kerollosragaie.teamtrix.core
 
 object Constants {
     const val SIGNIN_USER = "SIGNIN_USER"

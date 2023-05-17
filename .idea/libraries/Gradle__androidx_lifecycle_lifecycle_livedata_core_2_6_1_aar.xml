@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.6.1@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/0208f281111d09381b197a4ea925ca7d/transformed/lifecycle-livedata-core-2.6.1/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/0208f281111d09381b197a4ea925ca7d/transformed/lifecycle-livedata-core-2.6.1/res" />
-      <root url="file://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/0208f281111d09381b197a4ea925ca7d/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/10a09f2304725d7218f74158262f7c8b/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/10a09f2304725d7218f74158262f7c8b/transformed/lifecycle-livedata-core-2.6.1/res" />
+      <root url="jar://$PROJECT_DIR$/../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/10a09f2304725d7218f74158262f7c8b/transformed/lifecycle-livedata-core-2.6.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

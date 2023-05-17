@@ -1,10 +1,9 @@
 package com.kerollosragaie.teamtrix.activities
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.kerollosragaie.teamtrix.databinding.ActivityIntroBinding
-import com.kerollosragaie.teamtrix.utils.Utils
+import com.kerollosragaie.teamtrix.core.functions.Utils
 
 class IntroActivity : BaseActivity() {
     private lateinit var binding:ActivityIntroBinding

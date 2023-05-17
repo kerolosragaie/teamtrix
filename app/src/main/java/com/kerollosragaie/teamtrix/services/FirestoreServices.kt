@@ -10,7 +10,7 @@ import com.kerollosragaie.teamtrix.activities.MainActivity
 import com.kerollosragaie.teamtrix.activities.SignInActivity
 import com.kerollosragaie.teamtrix.activities.SignUpActivity
 import com.kerollosragaie.teamtrix.models.UserModel
-import com.kerollosragaie.teamtrix.utils.Constants
+import com.kerollosragaie.teamtrix.core.Constants
 
 class FirestoreServices {
     private val mFirestore = FirebaseFirestore.getInstance()

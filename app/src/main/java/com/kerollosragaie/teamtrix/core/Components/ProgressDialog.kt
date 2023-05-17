@@ -1,9 +1,7 @@
-package com.kerollosragaie.teamtrix.utils
+package com.kerollosragaie.teamtrix.core.Components
 
 import android.app.Dialog
 import android.content.Context
-import android.graphics.PorterDuff
-import android.graphics.drawable.Drawable
 import android.widget.TextView
 import com.kerollosragaie.teamtrix.R
 
