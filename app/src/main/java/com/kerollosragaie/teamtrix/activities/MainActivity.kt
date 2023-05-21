@@ -10,6 +10,7 @@ import androidx.core.view.GravityCompat
 import com.bumptech.glide.Glide
 import com.google.android.material.navigation.NavigationView
 import com.kerollosragaie.teamtrix.R
+import com.kerollosragaie.teamtrix.core.Constants.USER_DATA
 import com.kerollosragaie.teamtrix.databinding.ActivityMainBinding
 import com.kerollosragaie.teamtrix.models.UserModel
 import com.kerollosragaie.teamtrix.services.FirestoreServices
@@ -78,6 +79,7 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
         when (item.itemId) {
             R.id.nav_my_profile -> {
                 val intent = Intent(this@MainActivity,ProfileActivity::class.java)
+                intent.putExtra(USER_DATA,currentUserData)
                 startActivity(intent)
             }
             R.id.nav_sign_out -> {

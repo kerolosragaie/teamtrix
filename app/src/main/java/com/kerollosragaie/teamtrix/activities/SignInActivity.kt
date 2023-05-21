@@ -23,7 +23,7 @@ class SignInActivity : BaseActivity() {
         setContentView(binding.root)
 
         Utils.makeActivityFullScreen(this@SignInActivity)
-        Utils.setUpActionbar(binding.tbSignIn, this@SignInActivity)
+        Utils.setUpActionbar(binding.tbSignIn, this@SignInActivity, "Sign in")
 
         auth = FirebaseAuth.getInstance()
 

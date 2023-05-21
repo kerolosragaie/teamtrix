@@ -31,7 +31,6 @@ class FirestoreServices {
                 }
             }.addOnFailureListener {
                     e->
-
                 when(activity){
                     is SignInActivity -> {
                         activity.mProgressDialog.dismissDialog()

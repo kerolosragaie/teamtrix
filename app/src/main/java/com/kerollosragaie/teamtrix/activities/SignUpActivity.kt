@@ -21,7 +21,7 @@ class SignUpActivity : BaseActivity() {
 
 
         Utils.makeActivityFullScreen(this@SignUpActivity)
-        Utils.setUpActionbar(binding.tbSignUp, this@SignUpActivity)
+        Utils.setUpActionbar(binding.tbSignUp, this@SignUpActivity,"Sign up")
 
         setupBttns()
     }

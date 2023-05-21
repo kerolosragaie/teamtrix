@@ -33,17 +33,17 @@ object Utils {
     /**
      * Setup top action bar
      * */
-    fun setUpActionbar(view: View, context: Context) {
+    fun setUpActionbar(view: View, context: Context,title:String) {
         val appCompatActivity = context as AppCompatActivity
         val componentActivity = context as ComponentActivity
         appCompatActivity.setSupportActionBar(view as Toolbar)
         val actionBar = appCompatActivity.supportActionBar
+        actionBar?.title = title
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true)
             actionBar.setHomeAsUpIndicator(R.drawable.ic_arrow_back)
         }
         view.setNavigationOnClickListener {
-
             componentActivity.onBackPressedDispatcher.onBackPressed()
         }
     }
