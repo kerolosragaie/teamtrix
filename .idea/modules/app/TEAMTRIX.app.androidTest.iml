@@ -101,8 +101,6 @@
                 <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/d5a6be250862d1e2c237afeee0f6b490/transformed/jetified-lifecycle-runtime-ktx-2.6.1-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/d6e862e5a64c357392fbb12632ddb6f1/transformed/jetified-kotlinx-coroutines-android-1.6.4.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/594618158056ea8da455f32aec938c95/transformed/jetified-kotlin-stdlib-jdk8-1.8.20-RC.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/e98fc5ad859a52407ad4b07a8e60d146/transformed/jetified-converter-gson-2.9.0.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/de7dbb7e4f908a039f6d221c8c79f7a5/transformed/jetified-retrofit-2.9.0.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/35d619020105a30fd7d830f63dc0e70d/transformed/jetified-gson-2.10.1.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/597a8b75ef4a77e7d9d07c81b0164a00/transformed/jetified-circleimageview-3.1.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/aecb350fef393656ada424fb47a87847/transformed/jetified-ionalert-1.0.4-api.jar</arg>
@@ -151,12 +149,10 @@
                 <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/988c0d4430b9c5b47fa1eb423f2320dd/transformed/jetified-javawriter-2.1.1.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/035726aa458d49713e8b6c1efc8e95a3/transformed/jetified-firebase-annotations-16.2.0.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/983fa7857e33a417ed9f8e34987acb7a/transformed/jetified-javax.inject-1.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/05ec848e365cabf7e0bb582bb64d7727/transformed/jetified-okhttp-3.14.9.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/dea284f0cc635be14679ee2681d8926c/transformed/jetified-disklrucache-4.13.0.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/a32934ec5bd94847e023b0ab5c1dd95a/transformed/jetified-annotations-4.13.0.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/52409b134ee8f24dbfd1a394e87171eb/transformed/jetified-rxjava-2.1.6.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/e14cbdd773d017c8c6484bc49e343757/transformed/jetified-protolite-well-known-types-18.0.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/14dc569946f8cf38d1f717743692f256/transformed/jetified-okio-1.17.2.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/66bc0d7a9a96d1824684863cf5b7cb28/transformed/jetified-reactive-streams-1.0.1.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/c58769ae92510282fc737f0ad355bc15/transformed/jetified-protobuf-javalite-3.21.7.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/85d5e2c9f454a42711244ee5a41d1d9e/transformed/jetified-error_prone_annotations-2.14.0.jar</arg>
@@ -245,10 +241,6 @@
     <orderEntry type="library" scope="TEST" name="Gradle: javax.inject:javax.inject:1" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-library:1.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-integration:1.3" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.retrofit2:retrofit:2.9.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.okhttp3:okhttp:3.14.9" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.okio:okio:1.17.2" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.retrofit2:converter-gson:2.9.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.code.gson:gson:2.10.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.arch.core:core-common:2.2.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.collection:collection:1.1.0" level="project" />

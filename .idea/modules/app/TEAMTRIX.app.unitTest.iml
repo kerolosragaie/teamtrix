@@ -99,8 +99,6 @@
                 <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/d5a6be250862d1e2c237afeee0f6b490/transformed/jetified-lifecycle-runtime-ktx-2.6.1-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/d6e862e5a64c357392fbb12632ddb6f1/transformed/jetified-kotlinx-coroutines-android-1.6.4.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/594618158056ea8da455f32aec938c95/transformed/jetified-kotlin-stdlib-jdk8-1.8.20-RC.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/e98fc5ad859a52407ad4b07a8e60d146/transformed/jetified-converter-gson-2.9.0.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/de7dbb7e4f908a039f6d221c8c79f7a5/transformed/jetified-retrofit-2.9.0.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/35d619020105a30fd7d830f63dc0e70d/transformed/jetified-gson-2.10.1.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/597a8b75ef4a77e7d9d07c81b0164a00/transformed/jetified-circleimageview-3.1.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/aecb350fef393656ada424fb47a87847/transformed/jetified-ionalert-1.0.4-api.jar</arg>
@@ -129,8 +127,6 @@
                 <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/80ece4dca8f10ed2de5f19fdebcc4944/transformed/jetified-kotlin-stdlib-1.8.20-RC.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/639b36f38d070340ff56d97e2730df98/transformed/jetified-kotlin-stdlib-common-1.8.20-RC.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/1be6d530972d5f539f271e301870125a/transformed/jetified-annotations-13.0.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/05ec848e365cabf7e0bb582bb64d7727/transformed/jetified-okhttp-3.14.9.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/a8626beaaede2292406dcc4c181f628f/transformed/jetified-okio-1.17.5.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/1d57e9bad2dc08cc56a4320c1d189ca7/transformed/jetified-grpc-stub-1.52.1.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/db15f13b34e508e0f3ca3bc90a35511a/transformed/jetified-guava-31.1-android.jar</arg>
                 <arg>$MODULE_DIR$/../../../../../../ProgramFiles/Java/jdk1.8.0_111/caches/transforms-3/d9d4158721e0ab6a837216e8680ef04a/transformed/jetified-listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar</arg>
@@ -221,10 +217,6 @@
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20-RC" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.20-RC" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.retrofit2:retrofit:2.9.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.okhttp3:okhttp:3.14.9" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.okio:okio:1.17.5" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.retrofit2:converter-gson:2.9.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.code.gson:gson:2.10.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.arch.core:core-common:2.2.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-common:2.6.1" level="project" />
