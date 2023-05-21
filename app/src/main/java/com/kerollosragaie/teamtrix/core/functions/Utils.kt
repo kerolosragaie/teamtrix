@@ -6,7 +6,6 @@ import android.os.Build
 import android.view.View
 import android.view.WindowInsets
 import android.view.WindowManager
-import android.view.inputmethod.InputMethodManager
 import androidx.activity.ComponentActivity
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar

@@ -33,6 +33,7 @@ class ProfileActivity : BaseActivity() {
     /**
     Load user data from previous activity
      */
+    @Suppress("DEPRECATION")
     private fun loadUserData() {
         currentUser = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
             intent.getParcelableExtra(USER_DATA,UserModel::class.java)!!

@@ -6,11 +6,11 @@ import android.text.TextUtils
 import android.util.Log
 import com.google.firebase.auth.FirebaseAuth
 import com.kerollosragaie.teamtrix.databinding.ActivitySignInBinding
-import com.kerollosragaie.teamtrix.models.UserModel
 import com.kerollosragaie.teamtrix.services.FirestoreServices
 import com.kerollosragaie.teamtrix.core.Constants
 import com.kerollosragaie.teamtrix.core.functions.Keyboard
 import com.kerollosragaie.teamtrix.core.functions.Utils
+import com.kerollosragaie.teamtrix.models.UserModel
 import id.ionbit.ionalert.IonAlert
 
 class SignInActivity : BaseActivity() {

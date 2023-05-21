@@ -27,7 +27,7 @@ class SplashActivity : AppCompatActivity() {
     private fun navigateToActivity() {
         Timer().schedule(object : TimerTask() {
             override fun run() {
-                var currentUserId = FirestoreServices().getCurrentUserId()
+                val currentUserId = FirestoreServices().getCurrentUserId()
                 if (currentUserId.isNotEmpty()) {
                     val intent = Intent(this@SplashActivity, MainActivity::class.java)
                     startActivity(intent)
