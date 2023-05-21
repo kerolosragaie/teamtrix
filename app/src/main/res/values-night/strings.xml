@@ -18,4 +18,6 @@
     <string name="user_name">User name</string>
     <string name="my_profile">My profile</string>
     <string name="sign_out">Sign out</string>
+    <string name="mobile">Mobile</string>
+    <string name="update">Update</string>
 </resources>

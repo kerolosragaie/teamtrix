@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.view.MenuItem
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
 import androidx.core.view.GravityCompat
 import com.bumptech.glide.Glide
 import com.google.android.material.navigation.NavigationView
@@ -78,7 +77,8 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.nav_my_profile -> {
-                Toast.makeText(this@MainActivity, "My profile,Toast", Toast.LENGTH_SHORT).show()
+                val intent = Intent(this@MainActivity,ProfileActivity::class.java)
+                startActivity(intent)
             }
             R.id.nav_sign_out -> {
                 IonAlert(this@MainActivity, IonAlert.WARNING_TYPE)
