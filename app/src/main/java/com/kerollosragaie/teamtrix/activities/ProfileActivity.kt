@@ -49,7 +49,6 @@ class ProfileActivity : BaseActivity() {
         binding.etName.setText(currentUser.name)
         binding.etEmail.setText(currentUser.email)
         binding.etMobile.setText(currentUser.mobile.toString())
-
     }
 
     private fun setupBttns(){
