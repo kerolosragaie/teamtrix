@@ -41,8 +41,6 @@ class ProfileActivity : BaseActivity() {
         loadUserData()
 
         setupBttns()
-
-
     }
 
     private fun setUpActionbar() {
