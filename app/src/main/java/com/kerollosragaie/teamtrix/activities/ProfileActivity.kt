@@ -119,10 +119,8 @@ class ProfileActivity : BaseActivity() {
             ActivityResultContracts.RequestPermission()
         ) { isGranted: Boolean ->
             if (isGranted) {
-                // Permission has been granted. Call the showImageChooser() method
                 showImageChooser()
             } else {
-                // Permission has been denied. Show an AlertDialog asking the user to grant the permission from App Settings
                 AlertDialog.Builder(this)
                     .setMessage("You denied the permission for storage. Please go to the app settings and grant the permission.")
                     .setPositiveButton("Go to settings") { _, _ ->
