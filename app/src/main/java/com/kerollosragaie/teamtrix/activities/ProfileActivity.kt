@@ -10,6 +10,7 @@ import android.os.Build
 import android.os.Bundle
 import android.provider.MediaStore
 import android.provider.Settings
+import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
@@ -23,39 +24,9 @@ import com.kerollosragaie.teamtrix.models.UserModel
 class ProfileActivity : BaseActivity() {
     private val binding by lazy { ActivityProfileBinding.inflate(layoutInflater) }
     private lateinit var currentUser: UserModel
-    private val imagePickerLauncher by lazy {
-        registerForActivityResult(
-            ActivityResultContracts.StartActivityForResult()
-        ) { result ->
-            if (result.resultCode == Activity.RESULT_OK) {
-                val selectedImageUri: Uri? = result.data?.data
-                Glide
-                    .with(this)
-                    .load(selectedImageUri)
-                    .centerCrop()
-                    .placeholder(R.drawable.ic_profile)
-                    .into(binding.ivProfileUserImage)
-            }
-        }
-    }
-    private val openSettingsLauncher by lazy {
-        registerForActivityResult(
-            ActivityResultContracts.StartActivityForResult()
-        ) {
-            if (ContextCompat.checkSelfPermission(
-                    this,
-                    Manifest.permission.READ_EXTERNAL_STORAGE
-                ) == PackageManager.PERMISSION_GRANTED
-            ) {
-                showImageChooser()
-            }
-        }
-    }
-
-    companion object {
-        private const val READ_STORAGE_PERMISSION_CODE = 1
-        private const val PICK_IMAGE_REQUEST_CODE = 2
-    }
+    private lateinit var imagePickerLauncher: ActivityResultLauncher<Intent>
+    private lateinit var openSettingsLauncher: ActivityResultLauncher<Intent>
+    private lateinit var requestPermissionLauncher: ActivityResultLauncher<String>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -66,6 +37,8 @@ class ProfileActivity : BaseActivity() {
         loadUserData()
 
         setupBttns()
+
+        setupLaunchers()
     }
 
     private fun setUpActionbar() {
@@ -103,11 +76,7 @@ class ProfileActivity : BaseActivity() {
             ) {
                 showImageChooser()
             } else {
-                ActivityCompat.requestPermissions(
-                    this,
-                    arrayOf(Manifest.permission.READ_EXTERNAL_STORAGE),
-                    READ_STORAGE_PERMISSION_CODE
-                )
+                requestPermissionLauncher.launch(Manifest.permission.READ_EXTERNAL_STORAGE)
             }
         }
 
@@ -116,35 +85,57 @@ class ProfileActivity : BaseActivity() {
 
         }
     }
+    private fun showImageChooser() {
+        val intent = Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI)
+        imagePickerLauncher.launch(intent)
+    }
+    private fun setupLaunchers(){
+        imagePickerLauncher = registerForActivityResult(
+            ActivityResultContracts.StartActivityForResult()
+        ) { result ->
+            if (result.resultCode == Activity.RESULT_OK) {
+                val selectedImageUri: Uri? = result.data?.data
+                Glide
+                    .with(this)
+                    .load(selectedImageUri)
+                    .centerCrop()
+                    .placeholder(R.drawable.ic_profile)
+                    .into(binding.ivProfileUserImage)
+            }
+        }
 
-    override fun onRequestPermissionsResult(
-        requestCode: Int,
-        permissions: Array<out String>,
-        grantResults: IntArray
-    ) {
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
-        if (requestCode == READ_STORAGE_PERMISSION_CODE) {
-            if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+        openSettingsLauncher = registerForActivityResult(
+            ActivityResultContracts.StartActivityForResult()
+        ) {
+            if (ContextCompat.checkSelfPermission(
+                    this,
+                    Manifest.permission.READ_EXTERNAL_STORAGE
+                ) == PackageManager.PERMISSION_GRANTED
+            ) {
+                showImageChooser()
+            }
+        }
+        requestPermissionLauncher = registerForActivityResult(
+            ActivityResultContracts.RequestPermission()
+        ) { isGranted: Boolean ->
+            if (isGranted) {
+                // Permission has been granted. Call the showImageChooser() method
                 showImageChooser()
             } else {
-                AlertDialog
-                    .Builder(this)
+                // Permission has been denied. Show an AlertDialog asking the user to grant the permission from App Settings
+                AlertDialog.Builder(this)
                     .setMessage("You denied the permission for storage. Please go to the app settings and grant the permission.")
                     .setPositiveButton("Go to settings") { _, _ ->
                         val intent = Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS)
                         val uri = Uri.fromParts("package", packageName, null)
                         intent.data = uri
-                        openSettingsLauncher.launch(intent)
+                        startActivity(intent)
                     }
                     .setNegativeButton("Cancel", null)
                     .create()
                     .show()
             }
         }
-    }
 
-    private fun showImageChooser() {
-        val intent = Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI)
-        imagePickerLauncher.launch(intent)
     }
 }
