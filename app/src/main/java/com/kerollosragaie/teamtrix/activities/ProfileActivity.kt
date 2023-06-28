@@ -12,7 +12,6 @@ import android.provider.MediaStore
 import android.provider.Settings
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.bumptech.glide.Glide
 import com.kerollosragaie.teamtrix.R
@@ -20,6 +19,7 @@ import com.kerollosragaie.teamtrix.core.Constants.USER_DATA
 import com.kerollosragaie.teamtrix.core.functions.Utils
 import com.kerollosragaie.teamtrix.databinding.ActivityProfileBinding
 import com.kerollosragaie.teamtrix.models.UserModel
+import java.io.IOException
 
 class ProfileActivity : BaseActivity() {
     private val binding by lazy { ActivityProfileBinding.inflate(layoutInflater) }
@@ -95,12 +95,16 @@ class ProfileActivity : BaseActivity() {
         ) { result ->
             if (result.resultCode == Activity.RESULT_OK) {
                 val selectedImageUri: Uri? = result.data?.data
-                Glide
-                    .with(this)
-                    .load(selectedImageUri)
-                    .centerCrop()
-                    .placeholder(R.drawable.ic_profile)
-                    .into(binding.ivProfileUserImage)
+                try {
+                    Glide
+                        .with(this)
+                        .load(selectedImageUri)
+                        .centerCrop()
+                        .placeholder(R.drawable.ic_profile)
+                        .into(binding.ivProfileUserImage)
+                } catch (e: IOException) {
+                    e.printStackTrace()
+                }
             }
         }
 
