@@ -10,7 +10,6 @@ import android.os.Build
 import android.os.Bundle
 import android.provider.MediaStore
 import android.provider.Settings
-import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
@@ -24,12 +23,38 @@ import com.kerollosragaie.teamtrix.models.UserModel
 class ProfileActivity : BaseActivity() {
     private val binding by lazy { ActivityProfileBinding.inflate(layoutInflater) }
     private lateinit var currentUser: UserModel
-    private lateinit var imagePickerLauncher: ActivityResultLauncher<Intent>
+    private val imagePickerLauncher by lazy {
+        registerForActivityResult(
+            ActivityResultContracts.StartActivityForResult()
+        ) { result ->
+            if (result.resultCode == Activity.RESULT_OK) {
+                val selectedImageUri: Uri? = result.data?.data
+                Glide
+                    .with(this)
+                    .load(selectedImageUri)
+                    .centerCrop()
+                    .placeholder(R.drawable.ic_profile)
+                    .into(binding.ivProfileUserImage)
+            }
+        }
+    }
+    private val openSettingsLauncher by lazy {
+        registerForActivityResult(
+            ActivityResultContracts.StartActivityForResult()
+        ) {
+            if (ContextCompat.checkSelfPermission(
+                    this,
+                    Manifest.permission.READ_EXTERNAL_STORAGE
+                ) == PackageManager.PERMISSION_GRANTED
+            ) {
+                showImageChooser()
+            }
+        }
+    }
 
     companion object {
         private const val READ_STORAGE_PERMISSION_CODE = 1
         private const val PICK_IMAGE_REQUEST_CODE = 2
-        private const val OPEN_SETTINGS_REQUEST_CODE = 3
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -86,21 +111,6 @@ class ProfileActivity : BaseActivity() {
             }
         }
 
-        // Register for activity result listener
-        imagePickerLauncher = registerForActivityResult(
-            ActivityResultContracts.StartActivityForResult()
-        ) { result ->
-            if (result.resultCode == Activity.RESULT_OK) {
-                val selectedImageUri: Uri? = result.data?.data
-                Glide
-                    .with(this)
-                    .load(selectedImageUri)
-                    .centerCrop()
-                    .placeholder(R.drawable.ic_profile)
-                    .into(binding.ivProfileUserImage)
-            }
-        }
-
         //TODO: validate name and mobile then update using firebase services
         binding.btnUpdate.setOnClickListener {
 
@@ -124,7 +134,7 @@ class ProfileActivity : BaseActivity() {
                         val intent = Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS)
                         val uri = Uri.fromParts("package", packageName, null)
                         intent.data = uri
-                        startActivityForResult(intent, OPEN_SETTINGS_REQUEST_CODE)
+                        openSettingsLauncher.launch(intent)
                     }
                     .setNegativeButton("Cancel", null)
                     .create()
